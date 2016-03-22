@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D28FD8741CA1FE99009213EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FD8731CA1FE99009213EA /* AppDelegate.swift */; };
+		D28FD8761CA1FE99009213EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FD8751CA1FE99009213EA /* ViewController.swift */; };
+		D28FD8791CA1FE99009213EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28FD8771CA1FE99009213EA /* Main.storyboard */; };
+		D28FD87B1CA1FE99009213EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28FD87A1CA1FE99009213EA /* Assets.xcassets */; };
+		D28FD87E1CA1FE99009213EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28FD87C1CA1FE99009213EA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D28FD8701CA1FE99009213EA /* WhaleTale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhaleTale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28FD8731CA1FE99009213EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D28FD8751CA1FE99009213EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D28FD8781CA1FE99009213EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D28FD87A1CA1FE99009213EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D28FD87D1CA1FE99009213EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D28FD87F1CA1FE99009213EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D28FD86D1CA1FE99009213EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D28FD8671CA1FE98009213EA = {
+			isa = PBXGroup;
+			children = (
+				D28FD8721CA1FE99009213EA /* WhaleTale */,
+				D28FD8711CA1FE99009213EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D28FD8711CA1FE99009213EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D28FD8701CA1FE99009213EA /* WhaleTale.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D28FD8721CA1FE99009213EA /* WhaleTale */ = {
+			isa = PBXGroup;
+			children = (
+				D28FD8731CA1FE99009213EA /* AppDelegate.swift */,
+				D28FD8751CA1FE99009213EA /* ViewController.swift */,
+				D28FD8771CA1FE99009213EA /* Main.storyboard */,
+				D28FD87A1CA1FE99009213EA /* Assets.xcassets */,
+				D28FD87C1CA1FE99009213EA /* LaunchScreen.storyboard */,
+				D28FD87F1CA1FE99009213EA /* Info.plist */,
+			);
+			path = WhaleTale;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D28FD86F1CA1FE99009213EA /* WhaleTale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28FD8821CA1FE99009213EA /* Build configuration list for PBXNativeTarget "WhaleTale" */;
+			buildPhases = (
+				D28FD86C1CA1FE99009213EA /* Sources */,
+				D28FD86D1CA1FE99009213EA /* Frameworks */,
+				D28FD86E1CA1FE99009213EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhaleTale;
+			productName = WhaleTale;
+			productReference = D28FD8701CA1FE99009213EA /* WhaleTale.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D28FD8681CA1FE98009213EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Scott Kornblatt";
+				TargetAttributes = {
+					D28FD86F1CA1FE99009213EA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D28FD86B1CA1FE98009213EA /* Build configuration list for PBXProject "WhaleTale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D28FD8671CA1FE98009213EA;
+			productRefGroup = D28FD8711CA1FE99009213EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28FD86F1CA1FE99009213EA /* WhaleTale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D28FD86E1CA1FE99009213EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28FD87E1CA1FE99009213EA /* LaunchScreen.storyboard in Resources */,
+				D28FD87B1CA1FE99009213EA /* Assets.xcassets in Resources */,
+				D28FD8791CA1FE99009213EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28FD86C1CA1FE99009213EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28FD8761CA1FE99009213EA /* ViewController.swift in Sources */,
+				D28FD8741CA1FE99009213EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D28FD8771CA1FE99009213EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28FD8781CA1FE99009213EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D28FD87C1CA1FE99009213EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28FD87D1CA1FE99009213EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D28FD8801CA1FE99009213EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D28FD8811CA1FE99009213EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D28FD8831CA1FE99009213EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhaleTale/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottkornblatt.WhaleTale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D28FD8841CA1FE99009213EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhaleTale/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottkornblatt.WhaleTale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D28FD86B1CA1FE98009213EA /* Build configuration list for PBXProject "WhaleTale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28FD8801CA1FE99009213EA /* Debug */,
+				D28FD8811CA1FE99009213EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28FD8821CA1FE99009213EA /* Build configuration list for PBXNativeTarget "WhaleTale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28FD8831CA1FE99009213EA /* Debug */,
+				D28FD8841CA1FE99009213EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D28FD8681CA1FE98009213EA /* Project object */;
+}
